@@ -9,6 +9,10 @@
 
 }
 
+body {
+    background-color: hsl(0, 0%, 95%);
+}
+
 .container {
     margin: 5rem 0;
 }
