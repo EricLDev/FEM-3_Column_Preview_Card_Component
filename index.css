@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif;
 
 }
 
@@ -12,7 +15,9 @@
 
 .column {
     height: 30rem;
-    width: 22rem
+    width: 22rem;
+    padding: 3rem;
+
 }
 
 .column:nth-child(1) {
@@ -27,13 +32,28 @@
 .column:nth-child(3) {
     background-color: hsl(179, 100%, 13%);
     border-radius: 0 0 .75rem .75rem;
+}
+
+.title {
+    font-family: 'Big Shoulders Display', cursive;
+    color: hsl(0, 0%, 95%);
+    font-size: 2.75rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin: 1.75rem 0;
+}
+
+.text {
+    color: hsla(0, 0%, 100%, 0.75);
+    margin: 1.75rem 0;
+    line-height: 1.70rem;
 
 }
 
 .button {
     background-color: hsl(0, 0%, 95%);
     width: 10rem;
-    height: 3.5rem;
+    height: 3.25rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -59,4 +79,39 @@
 
 .attribution a {
     color: hsl(228, 45%, 44%);
+}
+
+@media screen and (min-width: 768px) {
+    body {
+        height: 100vh;
+    }
+
+    main {
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .column {
+        height: 33rem;
+        width: 20rem;
+        position: relative;
+    }
+
+    .button {
+        align-self: flex-end;
+        position: absolute;
+        bottom: 3rem;
+    }
+
+    .column:nth-child(1) {
+        border-radius: .75rem 0 0 .75rem;
+    }
+
+    .column:nth-child(3) {
+        border-radius: 0 .75rem .75rem 0;
+
+    }
+
 }
