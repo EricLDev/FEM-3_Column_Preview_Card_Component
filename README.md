@@ -1,7 +1,7 @@
 ### Links
 
 - Solution URL: [https://www.frontendmentor.io/solutions/mobile-first-approach-media-queries-for-desktop-tkaz_gTy5]
-- Live Site URL: [https://ericl81.github.io/FEM-3_Column_Preview_Card_Component/]
+- Live Site URL: [https://ericldev.github.io/FEM-3_Column_Preview_Card_Component/]
 
 # Frontend Mentor - 3-column preview card component
 
